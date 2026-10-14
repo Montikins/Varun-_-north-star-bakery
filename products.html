@@ -1,16 +1,13 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>North Star Bakery</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Products | North Star Bakery</title>
     <meta name="description" content="Explore fresh breads, pastries, cookies and celebration cakes at North Star Bakery.">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
     <header>
         <img src="images/bakery-logo.png" alt="North Star Bakery logo" class="logo">
@@ -30,6 +27,12 @@
             <h2>Baked Fresh for You</h2>
             <p>Whether you need breakfast, a snack or a cake for a special day, we have something to enjoy.</p>
             <p>Prices below are examples. Please check with our team for current prices and availability.</p>
+
+            <p class="favourite-summary">
+                Saved favourites:
+                <strong id="favourite-count">0</strong>
+            </p>
+            <p>Select your favourite products and we will remember your choices when you return.</p>
         </section>
 
         <section class="product-section">
@@ -41,6 +44,10 @@
                 <li><strong>Wholemeal loaf:</strong> $2.50 to $4.50</li>
                 <li><strong>Artisan signature loaf:</strong> $4 to $7</li>
             </ul>
+
+            <button type="button" data-favourite="bread" aria-pressed="false">
+                ♡ Add to Favourites
+            </button>
         </section>
 
         <section class="product-section">
@@ -52,6 +59,10 @@
                 <li><strong>Biscuits:</strong> $2 to $5 per pack</li>
                 <li><strong>Pastries:</strong> $2 to $4 each</li>
             </ul>
+
+            <button type="button" data-favourite="cookies" aria-pressed="false">
+                ♡ Add to Favourites
+            </button>
         </section>
 
         <section class="product-section">
@@ -63,6 +74,10 @@
                 <li><strong>Celebration cakes:</strong> $25 to $60</li>
                 <li><strong>Custom cakes:</strong> Price confirmed when ordering</li>
             </ul>
+
+            <button type="button" data-favourite="cakes" aria-pressed="false">
+                ♡ Add to Favourites
+            </button>
         </section>
 
         <section>
