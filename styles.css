@@ -282,12 +282,8 @@ footer a {
     width: 100%;
     max-width: 700px;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 12px;
+    object-fit: contain;
 }
-
-.featured figure {
-    text-align: center;
-}
-
 }
