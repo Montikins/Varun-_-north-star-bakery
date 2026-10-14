@@ -312,4 +312,27 @@ footer a {
     margin: 4px 0 12px;
     font-size: 0.9rem;
 }
+  .product-section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.product-image {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin: 16px auto;
+}
+
+.logo img {
+    display: block;
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 }
