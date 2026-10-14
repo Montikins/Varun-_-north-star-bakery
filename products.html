@@ -1,12 +1,8 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Our Products | North Star Bakery</title>
-
-    <meta name="description" content="Discover fresh breads, pastries, cookies and celebration cakes at North Star Bakery.">
-
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
@@ -20,160 +16,79 @@
         </div>
 
         <h1>Our Products</h1>
-        <p>Freshly baked with love every day</p>
+        <p>Fresh from our ovens to your table.</p>
 
         <nav aria-label="Main navigation">
             <a href="index.html">Home</a>
-            <a href="products.html" aria-current="page">Products</a>
+            <a href="products.html">Products</a>
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
-
-        <section class="welcome">
-            <h2>Baked Fresh for You</h2>
-
+        <section class="featured">
+            <h2>Fresh From Our Bakery</h2>
             <p>
-                Whether you need breakfast, a snack or a cake
-                for a special day, we have something tasty for you.
-            </p>
-
-            <p>
-                Our prices are examples. Please contact our team
-                to check current prices and availability.
-            </p>
-
-            <p class="favourite-summary">
-                Saved favourites:
-                <strong id="favourite-count">0</strong>
-            </p>
-
-            <p>
-                Choose your favourite treats and we will remember
-                your choices when you return.
+                Discover freshly baked bread and sweet treats
+                made with care at North Star Bakery.
             </p>
         </section>
 
-        <section class="products">
+        <section class="product-section">
             <h2>Fresh Breads</h2>
 
-            <div class="product-list">
+            <img
+                src="./bakery-bread_c.png"
+                alt="Fresh artisan bread"
+                class="product-image"
+            >
 
-                <article class="product-card">
-                    <img
-                        src="./bakery-bread_c.png"
-                        alt="Fresh artisan bread with a golden crust"
-                        class="product-image">
-
-                    <h3>Fresh Breads</h3>
-
-                    <p>
-                        Our breads are great for sandwiches,
-                        toast and family meals.
-                    </p>
-
-                    <ul>
-                        <li><strong>Classic white loaf:</strong> $2 to $4</li>
-                        <li><strong>Wholemeal loaf:</strong> $2.50 to $4.50</li>
-                        <li><strong>Artisan signature loaf:</strong> $4 to $7</li>
-                    </ul>
-
-                    <button type="button"
-                            data-favourite="bread"
-                            aria-pressed="false">
-                        ♡ Add to Favourites
-                    </button>
-                </article>
-
-                <article class="product-card">
-                    <img
-                        src="./bakery-feature-small_c.png"
-                        alt="Golden cookies and biscuits on a tray"
-                        class="product-image">
-
-                    <h3>Cookies and Sweet Treats</h3>
-
-                    <p>
-                        Perfect with a cup of tea or as a little
-                        treat after lunch.
-                    </p>
-
-                    <ul>
-                        <li><strong>Cookies:</strong> $1 to $3 each</li>
-                        <li><strong>Biscuits:</strong> $2 to $5 per pack</li>
-                        <li><strong>Pastries:</strong> $2 to $4 each</li>
-                    </ul>
-
-                    <button type="button"
-                            data-favourite="cookies"
-                            aria-pressed="false">
-                        ♡ Add to Favourites
-                    </button>
-                </article>
-
-                <article class="product-card">
-                    <img
-                        src="./bakery-feature-large_c.png"
-                        alt="Fresh bakery treats ready to enjoy"
-                        class="product-image">
-
-                    <h3>Cakes for Special Days</h3>
-
-                    <p>
-                        Planning a birthday or family gathering?
-                        Ask us about celebration cakes and custom orders.
-                    </p>
-
-                    <ul>
-                        <li><strong>Small cakes:</strong> $10 to $20</li>
-                        <li><strong>Celebration cakes:</strong> $25 to $60</li>
-                        <li><strong>Custom cakes:</strong> Price confirmed when ordering</li>
-                    </ul>
-
-                    <button type="button"
-                            data-favourite="cakes"
-                            aria-pressed="false">
-                        ♡ Add to Favourites
-                    </button>
-                </article>
-
-            </div>
+            <h3>Fresh Artisan Bread</h3>
+            <p>
+                Enjoy the smell of fresh bread straight from
+                the oven.
+                Each loaf is perfect for breakfast, lunch,
+                or a tasty snack.
+            </p>
         </section>
 
-        <section class="welcome">
-            <h2>Planning a Pre Order?</h2>
+        <section class="product-section">
+            <h2>Cookies and Sweet Treats</h2>
 
+            <img
+                src="./bakery-feature-small_c.png"
+                alt="Freshly baked cookies and sweet treats"
+                class="product-image"
+            >
+
+            <h3>Cookies and Sweet Treats</h3>
             <p>
-                Tell us what you need and when you would like
-                to collect it.
+                Treat yourself to a little something sweet.
+                Our baked goodies are perfect with a cup
+                of tea or coffee.
             </p>
-
-            <p>
-                We will contact you to discuss availability
-                and confirm your request.
-            </p>
-
-            <a class="button" href="contact.html">
-                Request a Pre Order
-            </a>
         </section>
 
+        <section class="product-section">
+            <h2>Bakery Favourites</h2>
+
+            <img
+                src="./bakery-feature-large_c.png"
+                alt="A selection of freshly baked bakery treats"
+                class="product-image"
+            >
+
+            <h3>Made Fresh With Care</h3>
+            <p>
+                From everyday favourites to special treats,
+                there is something delicious waiting for you.
+            </p>
+        </section>
     </main>
 
     <footer>
-        <p>
-            &copy; 2026 North Star Bakery.
-            All rights reserved.
-        </p>
-
-        <p>Fresh bakes, happy days.</p>
-
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="contact.html">Contact Us</a>
-        </p>
+        <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
     </footer>
 
 </body>
