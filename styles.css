@@ -286,4 +286,30 @@ footer a {
     border-radius: 12px;
     object-fit: contain;
 }
+  .product-card button,
+#contact-form button {
+    background-color: #6B3E26;
+    color: #FFF8F0;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    cursor: pointer;
+    font: inherit;
+}
+
+#contact-form input,
+#contact-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 6px 0 12px;
+}
+
+.error-message {
+    color: #A12622;
+    margin: 4px 0 12px;
+    font-size: 0.9rem;
+}
 }
